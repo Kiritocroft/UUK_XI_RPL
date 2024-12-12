@@ -35,7 +35,7 @@ const UpdatePage = () => {
           <div className="max-w-5xl mx-auto p-8">
             <div className="bg-white rounded-lg shadow-md p-12">
             <div className="text-center mb-12">
-                <h1 className="text-5xl text-customBlue font-semibold mb-6">Add Product</h1>
+                <h1 className="text-5xl  font-semibold mb-6">Add Product</h1>
                 <div className="w-full border-b border-gray-300"></div>
               </div>
               

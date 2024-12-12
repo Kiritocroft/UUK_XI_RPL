@@ -17,25 +17,25 @@ const UserPage = () => {
         <><Navbar /><div className="flex">
             <Sidebar />
             <div className="p-6 bg-gray-100 flex-1">
-                <div className="flex justify-between items-center mb-14">
-                    <h1 className="text-2xl font-semibold text-customBlue">All User</h1>
+                <div className="flex justify-between items-center mb-6">
+                    <h1 className="text-2xl font-semibold ">All User</h1>
+                </div>
+                <div className='flex justify-end pb-8'>
                     <button
-                        className="px-6 py-1 text-customBlue rounded-md border-customBlue border hover:bg-blue-700 transition-colors"
-                    >
+                        className="px-7 py-2 text-sky-500 rounded-md border-sky-500 border font-bold ">
                         Add
                     </button>
                 </div>
-
                 <div className="bg-white rounded-lg shadow">
-                    <table className="w-full pt-4">
+                    <table className="w-full">
                         <thead>
                             <tr className="border-b pb-6 bg-gray-400">
-                                <th className="px-3 py-1 text-left font-bold text-customBlue"></th>
-                                <th className="px-3 py-1 text-left font-bold text-customBlue"></th>
-                                <th className="px-3 py-1 text-left font-bold text-customBlue">Name</th>
-                                <th className="px-3 py-1 text-left font-bold text-customBlue">Access Status</th>
-                                <th className="px-3 py-1 text-left font-bold text-customBlue">Email</th>
-                                <th className="px-3 py-1 text-left font-bold text-customBlue">Age</th>
+                                <th className="px-3 py-3 text-left font-bold "></th>
+                                <th className="px-3 py-3 text-left font-bold "></th>
+                                <th className="px-3 py-3 text-left font-bold ">Name</th>
+                                <th className="px-3 py-3 text-left font-bold ">Access Status</th>
+                                <th className="px-3 py-3 text-left font-bold ">Email</th>
+                                <th className="px-3 py-3 text-left font-bold ">Age</th>
                             </tr>
                         </thead>
                         <tbody>

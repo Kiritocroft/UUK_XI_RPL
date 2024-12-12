@@ -30,7 +30,7 @@ const InventoryPage = () => {
                         </Link>
                     </div>
                     <button
-                        className="px-6 py-1 text-customBlue rounded-md border-customBlue border border-sky-500 text-sky-500"
+                        className="px-7 py-2 rounded-md border border-sky-500 text-sky-500 font-bold"
                     >
                         Add
                     </button>
@@ -40,12 +40,12 @@ const InventoryPage = () => {
                     <table className="w-full pt-4">
                         <thead>
                             <tr className="border-b pb-6 bg-gray-400 py-6">
-                                <th className="px-3 py-3 text-left font-bold text-customBlue"></th>
-                                <th className="px-3 py-3 text-left font-bold text-customBlue">Product Name</th>
-                                <th className="px-3 py-3 text-left font-bold text-customBlue">Series No.</th>
-                                <th className="px-3 py-3 text-left font-bold text-customBlue">Items</th>
-                                <th className="px-3 py-3 text-left font-bold text-customBlue">Purchase Date</th>
-                                <th className="px-3 py-3 text-left font-bold text-customBlue">Unit Price</th>
+                                <th className="px-3 py-3 text-left font-bold "></th>
+                                <th className="px-3 py-3 text-left font-bold ">Product Name</th>
+                                <th className="px-3 py-3 text-left font-bold ">Series No.</th>
+                                <th className="px-3 py-3 text-left font-bold ">Items</th>
+                                <th className="px-3 py-3 text-left font-bold ">Purchase Date</th>
+                                <th className="px-3 py-3 text-left font-bold ">Unit Price</th>
                             </tr>
                         </thead>
                         <tbody>
